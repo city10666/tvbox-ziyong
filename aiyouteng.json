@@ -50,25 +50,9 @@
       "type": 3,
       "api": "./js/drpy2.min.js",
       "ext": "./js/360.js"
-    }
-  ],
+    },
   "lives": [{"group": "Tv Live", "channels": [{"name": "channels", "urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZ2l0bWlycm9yLmNvbS8xNzcxMjQ1ODQ3L1R2Qm94L21hc3Rlci90di50eHQ="] } ] } ],
   "parses": [
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
-    {
-      "name": "Json轮发",
-      "type": 2,
-      "url": "Parallel"
-    },
-    {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
     {
       "name": "解析线路1",
       "type": 0,
@@ -82,32 +66,7 @@
     {
       "name": "解析线路3",
       "type": 0,
-      "url": "https://jx.nnxv.cn/tv.php?url="
-    },
-    {
-      "name": "解析线路4",
-      "type": 0,
-      "url": "https://im1907.top/?jx="
-    },
-    {
-      "name": "解析线路5",
-      "type": 0,
-      "url": "https://jx.2s0.cn/player/?url="
-    },
-    {
-      "name": "解析线路6",
-      "type": 0,
-      "url": "https://jx.77flv.cc/?url="
-    },
-    {
-      "name": "解析线路7",
-      "type": 0,
-      "url": "https://jx.hls.one/?url="
-    },
-    {
-      "name": "解析线路8",
-      "type": 0,
-      "url": "https://openapi.973973.xyz/open/api_free/index?url="
+      "url": "https://www.nanguady.cc/jiexi/jiexi-gf/?url="
     }
   ],
   "flags": [
