@@ -53,7 +53,22 @@
     }
   ],
   "lives": [{"group": "Tv Live", "channels": [{"name": "channels", "urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZ2l0bWlycm9yLmNvbS8xNzcxMjQ1ODQ3L1R2Qm94L21hc3Rlci90di50eHQ="] } ] } ],
-  "parses": [
+  "parses": [    
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "Json轮发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
     {
       "name": "解析线路1",
       "type": 0,
