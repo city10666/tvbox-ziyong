@@ -51,45 +51,192 @@
       "api": "./js/drpy2.min.js",
       "ext": "./js/360.js"
     },
+    {
+      "key": "南瓜影视",
+      "name": "南瓜影视",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/Pumpkin.js"
+    },
+    {
+      "key": "荐片影视",
+      "name": "荐片影视",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/jianpian.js"
+    },
+    {
+      "key": "360资源",
+      "name": "360资源",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "华为资源",
+      "name": "华为资源",
+      "type": 1,
+      "api": "https://cjhwba.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "忆梦影视",
+      "name": "忆梦影视",
+      "type": 1,
+      "api": "https://www.gnpt.net/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "赛维影院",
+      "name": "赛维影院",
+      "type": 1,
+      "api": "https://lsys.dsmynas.com:3000//api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "光速资源",
+      "name": "光速资源",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "索尼资源",
+      "name": "索尼资源",
+      "type": 0,
+      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "非凡资源",
+      "name": "非凡资源",
+      "type": 0,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ikun资源",
+      "name": "ikun资源",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "飘零影视",
+      "name": "飘零影视",
+      "type": 1,
+      "api": "https://p2100.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Ma影视",
+      "name": "Ma影视",
+      "type": 1,
+      "api": "https://cc.appma.cc/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "卧龙资源",
+      "name": "卧龙资源",
+      "type": 1,
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "1080资源",
+      "name": "1080资源",
+      "type": 1,
+      "api": "https://api.1080zyku.com/inc/api_mac10.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "速影资源",
+      "name": "速影资源",
+      "type": 1,
+      "api": "https://xn--k5d-suyingtvcom-lc40a84t7o9i3urako0c.suyingok.com/inc/apijson.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "kuaikan",
+      "name": "kuaikan",
+      "type": 1,
+      "api": "https://kuaikan-api.com/api.php/provide/vod/from/kuaikan/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
   "lives": [{"group": "Tv Live", "channels": [{"name": "channels", "urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZ2l0bWlycm9yLmNvbS8xNzcxMjQ1ODQ3L1R2Qm94L21hc3Rlci90di50eHQ="] } ] } ],
   "parses": [
     {
       "name": "解析线路1",
-      "type": 1,
+      "type": 0,
       "url": "https://jx.xmflv.com/?url="
     },
     {
       "name": "解析线路2",
       "type": 0,
-      "url": "https://jx.973973.xyz/?url="
+      "url": "https://yparse.ik9.cc/index.php?url="
     },
     {
       "name": "解析线路3",
       "type": 0,
-      "url": "https://openapi.973973.xyz/open/api_free/index?url="
+      "url": "https://jx.973973.xyz/?url="
     },
     {
       "name": "解析线路4",
       "type": 0,
-      "url": "https://jx.hls.one/?url="
+      "url": "https://openapi.973973.xyz/open/api_free/index?url="
     },
     {
       "name": "解析线路5",
       "type": 0,
-      "url": "https://jx.77flv.cc/?url="
+      "url": "https://jx.hls.one/?url="
     },
     {
       "name": "解析线路6",
       "type": 0,
-      "url": "https://jx.2s0.cn/player/?url="
+      "url": "https://jx.77flv.cc/?url="
     },
     {
       "name": "解析线路7",
       "type": 0,
-      "url": "https://im1907.top/?jx="
+      "url": "https://jx.2s0.cn/player/?url="
     },
     {
       "name": "解析线路8",
+      "type": 0,
+      "url": "https://im1907.top/?jx="
+    },
+    {
+      "name": "解析线路9",
       "type": 0,
       "url": "https://jx.nnxv.cn/tv.php?url="
     }
