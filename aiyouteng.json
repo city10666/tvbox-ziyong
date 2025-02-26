@@ -55,7 +55,7 @@
   "parses": [
     {
       "name": "解析线路1",
-      "type": 0,
+      "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },
     {
